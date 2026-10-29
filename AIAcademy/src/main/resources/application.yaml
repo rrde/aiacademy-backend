@@ -10,7 +10,7 @@ spring:
   datasource:
     url: jdbc:mysql://voice2learn.com:3306/voicelep_AIAcademy362
     username: voicelep_AIAcademy362
-    password: PTka3439384sdfvkj@#346587
+    password: passs
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:

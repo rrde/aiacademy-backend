@@ -1,0 +1,15 @@
+target/
+
+.idea/
+.vscode/
+
+*.iml
+*.class
+*.log
+
+.env
+
+application-local.yaml
+
+node_modules/
+dist/

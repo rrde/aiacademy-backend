@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: AIAcademy
+
+  security:
+    jwt:
+      secret-key: 4f9c938538e44d6cba6e7d8f63f9f3f8a1d22b5c4d3e6f7a8b9c123456789012
+      expiration: 86400000
+
+  datasource:
+    url: jdbc:mysql://voice2learn.com:3306/voicelep_AIAcademy362
+    username: voicelep_AIAcademy362
+    password: passs
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+  flyway:
+    enabled: false
+    baseline-on-migrate: true
+
+server:
+  port: 8080
+
